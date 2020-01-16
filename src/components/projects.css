@@ -1,0 +1,64 @@
+.page {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: center;
+}
+
+.page.pathfollowing {
+  background-image: linear-gradient(to top, #537895 5%, #09203f 100%);
+}
+
+.page h2 {
+  color: white;
+}
+
+.page.boids {
+  background-color: #537895;
+}
+.page.frc2019 {
+  background-image: linear-gradient(to bottom, #537895 5%, #09203f 100%);
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.col {
+  height: 100vh;
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.description p {
+  text-align: justify;
+}
+
+video,
+.yt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+}
+
+.codelink {
+  font-size: 2vw;
+}
+@media screen and (min-width: 1200px) {
+  .codelink {
+    font-size: 24px;
+  }
+}

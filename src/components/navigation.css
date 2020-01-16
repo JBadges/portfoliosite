@@ -1,0 +1,32 @@
+.navbar-nav {
+  width: 100% !important;
+  display: inline;
+  text-align: center;
+}
+
+.navbar-nav > .navlink {
+  float: none;
+  display: inline-block;
+}
+
+.navbar-light .navbar-nav .navlink {
+  font-size: 2em;
+  color: white;
+}
+
+.navbar-light:hover .navbar-nav:hover .navlink:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+}
+
+.navbar-nav > .navlink {
+  flex-grow: 1;
+  text-align: center;
+}
