@@ -26,7 +26,7 @@ class Contact extends Component {
           />
           <HackerText
             className="cent grey"
-            text="Development"
+            text="Development."
             speed="40"
             changes="5"
             onStart={this.setStyleStart}

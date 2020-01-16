@@ -7,11 +7,18 @@
 .navbar-nav > .navlink {
   float: none;
   display: inline-block;
+  flex-grow: 1;
+  text-align: center;
 }
 
 .navbar-light .navbar-nav .navlink {
   font-size: 2em;
   color: white;
+}
+.greybg {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  padding: 5px;
 }
 
 .navbar-light:hover .navbar-nav:hover .navlink:hover {
@@ -24,9 +31,4 @@
   display: flex;
   flex-wrap: no-wrap;
   justify-content: space-between;
-}
-
-.navbar-nav > .navlink {
-  flex-grow: 1;
-  text-align: center;
 }

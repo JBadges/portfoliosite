@@ -42,6 +42,7 @@
 .description p {
   text-align: justify;
   color: #d8d4bd;
+  font-size: 1rem;
 }
 
 video,
@@ -57,7 +58,7 @@ video,
 }
 
 .description .btn {
-  font-size: 2vw;
+  font-size: 1rem;
   width: 50%;
 }
 @media screen and (min-width: 1200px) {

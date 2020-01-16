@@ -7,20 +7,22 @@ class Navigation extends Component {
   constructor() {
     super();
     if (window.innerWidth < 768) {
-      this.state = { fixpos: "top" };
+      this.state = { fixpos: "top", greybg: "greybg" };
     } else {
-      this.state = { fixpos: "bottom" };
+      this.state = { fixpos: "bottom", greybg: "" };
     }
   }
 
   handleResize = () => {
     if (window.innerWidth < 768) {
       this.setState({
-        fixpos: "top"
+        fixpos: "top",
+        greybg: "greybg"
       });
     } else {
       this.setState({
-        fixpos: "bottom"
+        fixpos: "bottom",
+        greybg: ""
       });
     }
   };
@@ -45,17 +47,20 @@ class Navigation extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" fill="true">
             {this.props.location.pathname !== "/" && (
-              <NavLink className="navlink" to="/">
+              <NavLink className={this.state.greybg + " navlink"} to="/">
                 Home
               </NavLink>
             )}
             {this.props.location.pathname !== "/projects" && (
-              <NavLink className="navlink" to="/projects">
+              <NavLink
+                className={this.state.greybg + " navlink"}
+                to="/projects"
+              >
                 Projects
               </NavLink>
             )}
             {this.props.location.pathname !== "/contact" && (
-              <NavLink className="navlink" to="/contact">
+              <NavLink className={this.state.greybg + " navlink"} to="/contact">
                 Contact
               </NavLink>
             )}
