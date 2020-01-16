@@ -18,16 +18,16 @@ export default () => {
               </p>
               <Button
                 variant="outline-info"
-                className="codelink"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/JBadges/SplinePursuit/blob/master/src/main/java/auto/actions/SplineDrivePath.java"
               >
                 Code here
               </Button>
               <Button
                 variant="outline-info"
-                className="codelink"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/JBadges/SplinePursuit/blob/master/src/main/java/auto/actions/SplineDrivePath.java"
               >
                 Extra Videos

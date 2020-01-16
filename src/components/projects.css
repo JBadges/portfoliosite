@@ -52,17 +52,28 @@ video,
   transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
-  width: 100%;
+  width: 90%;
   background-color: transparent;
 }
 
-.codelink {
+.description .btn {
   font-size: 2vw;
+  width: 50%;
 }
 @media screen and (min-width: 1200px) {
-  .codelink {
+  .description .btn {
     font-size: 24px;
   }
+}
+
+.description > h2 > a {
+  color: #16a2b8;
+  text-decoration: none;
+}
+
+.description > h2 > a:hover {
+  color: #1bd4f1;
+  text-decoration: none;
 }
 
 .robotphoto {

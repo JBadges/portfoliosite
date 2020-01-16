@@ -8,12 +8,8 @@ export default () => {
     <div className="page frc2019">
       <Container fluid="true">
         <Row>
-          <Col className="d-none d-lg-block robotphotocontainer">
-            <img
-              className="robotphoto"
-              src="/assets/mantis_2.jpg"
-              alt="mantis robot photo"
-            ></img>
+          <Col className="d-none d-lg-block">
+            <YouTube className="yt" videoId="EUUZhxSoz1M" />
           </Col>
           <Col>
             <div className="description">
@@ -21,6 +17,7 @@ export default () => {
                 FRC 2019 Robot Code <br />
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://en.wikipedia.org/wiki/Destination:_Deep_Space"
                 >
                   Destination: Deep Space
@@ -37,17 +34,17 @@ export default () => {
               </p>
               <Button
                 variant="outline-info"
-                className="codelink"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/Team610/2019-Public"
               >
                 Code here
               </Button>
               <Button
                 variant="outline-info"
-                className="codelink"
                 target="_blank"
-                href="https://github.com/Team610/2019-Public"
+                rel="noopener noreferrer"
+                href="https://www.youtube.com/playlist?list=PLk5eW4p_ePO_teylwSzvCRUFFtUrgo0FM"
               >
                 Extra Videos
               </Button>

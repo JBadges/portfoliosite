@@ -9,7 +9,7 @@ export default () => {
         <Row>
           <Col>
             <video autoPlay loop auto="true" controls>
-              <source src="/assets/AutoSimulation.mp4" type="video/mp4" />
+              <source src="/assets/boids.mp4" type="video/mp4" />
             </video>
           </Col>
           <Col>
@@ -24,8 +24,9 @@ export default () => {
               </p>
               <Button
                 variant="outline-info"
-                className="codelink"
                 target="_blank"
+                className="w-100"
+                rel="noopener noreferrer"
                 href="https://github.com/JBadges/BOIDS"
               >
                 Code here
