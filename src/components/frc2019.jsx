@@ -8,6 +8,13 @@ export default () => {
     <div className="page frc2019">
       <Container fluid="true">
         <Row>
+          <Col className="d-none d-lg-block robotphotocontainer">
+            <img
+              className="robotphoto"
+              src="/assets/mantis_2.jpg"
+              alt="mantis robot photo"
+            ></img>
+          </Col>
           <Col>
             <div className="description">
               <h2>
