@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Particles from "react-particles-js";
-import HackerText, { hackerTextFunction } from "react-hacker-text";
+import HackerText from "react-hacker-text";
 import Navigation from "./navigation";
+import "./contact.css";
 
 class Contact extends Component {
   setStyleStart = () => {
@@ -14,13 +15,24 @@ class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        <HackerText
-          text="react-hacker-text 😄🎉"
-          speed="60"
-          changes="5"
-          onStart={this.setStyleStart}
-          onFinished={this.setStyleDone}
-        />
+        <div className="temp">
+          <HackerText
+            className="cent"
+            text="Under "
+            speed="40"
+            changes="5"
+            onStart={this.setStyleStart}
+            onFinished={this.setStyleDone}
+          />
+          <HackerText
+            className="cent grey"
+            text="Development"
+            speed="40"
+            changes="5"
+            onStart={this.setStyleStart}
+            onFinished={this.setStyleDone}
+          />
+        </div>
         <Navigation />
         <Particles
           canvasClassName="particle"

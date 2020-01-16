@@ -1,16 +1,24 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./projects.css";
+import YouTube from "react-youtube";
 
 export default () => {
+  const opts = {
+    playerVars: {
+      autoplay: "1",
+      controls: "0",
+      loop: "1",
+      playlist: "rTUOY4oz_pI"
+    }
+  };
+
   return (
     <div className="page boids">
       <Container fluid="true">
         <Row>
           <Col>
-            <video autoPlay loop auto="true" controls>
-              <source src="/assets/boids.mp4" type="video/mp4" />
-            </video>
+            <YouTube className="yt" opts={opts} videoId="rTUOY4oz_pI" />
           </Col>
           <Col>
             <div className="description">

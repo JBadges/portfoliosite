@@ -8,7 +8,7 @@ import Contact from "./components/contact";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
           <Switch>
             <Route path="/" component={Home} exact />

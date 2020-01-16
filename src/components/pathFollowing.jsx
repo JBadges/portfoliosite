@@ -1,8 +1,18 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./projects.css";
+import YouTube from "react-youtube";
 
 export default () => {
+  const opts = {
+    playerVars: {
+      autoplay: "1",
+      controls: "0",
+      loop: "1",
+      playlist: "n4LG-JH9QOM"
+    }
+  };
+
   return (
     <div className="page pathfollowing">
       <Container fluid="true">
@@ -35,9 +45,7 @@ export default () => {
             </div>
           </Col>
           <Col>
-            <video autoPlay loop auto="true" controls>
-              <source src="/assets/AutoSimulation.mp4" type="video/mp4" />
-            </video>
+            <YouTube className="yt" opts={opts} videoId="n4LG-JH9QOM" />
           </Col>
         </Row>
       </Container>
