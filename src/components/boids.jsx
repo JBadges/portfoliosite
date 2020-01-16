@@ -28,7 +28,7 @@ export default () => {
               <p>
                 BOIDS is commonly used in computer graphics to simulate the
                 actions of a flock of birds. It simulates the movement of the
-                flock by using three main factors: cohesion, seperation and
+                flock by using three main factors: cohesion, separation and
                 alignment.
                 <br />
               </p>

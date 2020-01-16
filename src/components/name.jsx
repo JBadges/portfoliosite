@@ -16,8 +16,8 @@ class Name extends Component {
           <p>
             Passionate software developer experienced in critical and hard
             deadline environments. Experienced in optimizing code for time and
-            memory performance. Intersted in all aspects of technology and
-            extremly passionate about the technology in automation.
+            memory performance. Interested in all aspects of technology and
+            extremely passionate about the technology in automation.
           </p>
         </div>
         <Particles

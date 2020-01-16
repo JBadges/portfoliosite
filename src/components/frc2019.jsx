@@ -27,7 +27,7 @@ export default () => {
                 Mantis, the robot, was controlled with many different and custom
                 built control systems to maximize every inch of performance
                 possible. Each task of the robot could be performed concurrently
-                to save time. With all these systems running at once a rhobust
+                to save time. With all these systems running at once a robust
                 controller to maintain a regular delta time was needed. The
                 robot ran at a constant 10ms cycle or 100 times a second.
                 <br />

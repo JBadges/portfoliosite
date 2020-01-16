@@ -21,9 +21,10 @@ export default () => {
             <div className="description">
               <h2>Path Following Autonomous Control</h2>
               <p>
-                Using quintic hermite splines and wheel rotation feedback from
+                Using Quintic Hermite Splines and wheel rotation feedback from
                 the robot, position in a 2D environment is derived and used to
-                predict the robots location to correct any missed trajectories.
+                predict the location of the robot to correct any missed
+                trajectories.
                 <br />
               </p>
               <Button
