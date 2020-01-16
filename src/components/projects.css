@@ -20,7 +20,6 @@
 }
 
 .page.boids {
-  /* background-color: #537895; */
   background-image: linear-gradient(
     to bottom,
     rgba(83, 120, 149, 0) 25%,
