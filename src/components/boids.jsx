@@ -17,7 +17,7 @@ export default () => {
     <div className="page boids">
       <Container fluid="true">
         <Row>
-          <Col>
+          <Col className="d-none d-sm-block">
             <YouTube className="yt" opts={opts} videoId="rTUOY4oz_pI" />
           </Col>
           <Col>

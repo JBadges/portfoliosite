@@ -17,13 +17,26 @@
 }
 
 .title h1 {
-  font-size: 6vw;
+  font-size: 10vw;
   text-align: center;
 }
 
+@media screen and (min-width: 700px) {
+  .title h1 {
+    font-size: 100px;
+  }
+}
+
 .title p {
+  font-size: 3vw;
   text-align: center;
   color: white;
+}
+
+@media screen and (min-width: 700px) {
+  .title p {
+    font-size: 17px;
+  }
 }
 
 #firstName {

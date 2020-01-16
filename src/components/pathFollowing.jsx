@@ -44,7 +44,7 @@ export default () => {
               </Button>
             </div>
           </Col>
-          <Col>
+          <Col className="d-none d-sm-block">
             <YouTube className="yt" opts={opts} videoId="n4LG-JH9QOM" />
           </Col>
         </Row>
