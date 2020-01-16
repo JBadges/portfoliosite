@@ -9,14 +9,23 @@
 }
 
 .page.pathfollowing {
-  background-image: linear-gradient(to top, #537895 5%, #09203f 100%);
+}
+
+.page.frc2019 {
+  background-image: linear-gradient(
+    to top,
+    rgba(83, 120, 149, 0) 25%,
+    rgba(9, 32, 63, 1) 100%
+  );
 }
 
 .page.boids {
-  background-color: #537895;
-}
-.page.frc2019 {
-  background-image: linear-gradient(to bottom, #537895 5%, #09203f 100%);
+  /* background-color: #537895; */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(83, 120, 149, 0) 25%,
+    rgba(9, 32, 63, 1) 100%
+  );
 }
 
 .scroll-container {
@@ -87,4 +96,14 @@ video,
   transform: translate(-50%, -50%);
   text-align: center;
   background-color: transparent;
+}
+
+.test {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(83, 120, 149, 1);
 }
