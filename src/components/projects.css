@@ -4,12 +4,12 @@
   scroll-snap-align: center;
 }
 
-.page.pathfollowing {
-  background-image: linear-gradient(to top, #537895 5%, #09203f 100%);
-}
-
 .page h2 {
   color: white;
+}
+
+.page.pathfollowing {
+  background-image: linear-gradient(to top, #537895 5%, #09203f 100%);
 }
 
 .page.boids {
@@ -41,6 +41,7 @@
 
 .description p {
   text-align: justify;
+  color: #d8d4bd;
 }
 
 video,
@@ -74,8 +75,4 @@ video,
   transform: translate(-50%, -50%);
   text-align: center;
   background-color: transparent;
-}
-
-.col-3 {
-  padding: 0 0 0 0;
 }

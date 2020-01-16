@@ -19,7 +19,10 @@ export default () => {
             <div className="description">
               <h2>
                 FRC 2019 Robot Code <br />
-                <a href="https://en.wikipedia.org/wiki/Destination:_Deep_Space">
+                <a
+                  target="_blank"
+                  href="https://en.wikipedia.org/wiki/Destination:_Deep_Space"
+                >
                   Destination: Deep Space
                 </a>
               </h2>
