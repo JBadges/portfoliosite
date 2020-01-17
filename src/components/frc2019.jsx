@@ -50,7 +50,7 @@ export default () => {
               </Button>
             </div>
           </Col>
-          <Col className="d-none d-sm-block">
+          <Col className="d-none d-md-block">
             <YouTube className="yt" videoId="FMv0c5e1aM4" />
           </Col>
         </Row>

@@ -19,9 +19,9 @@ class Projects extends React.Component {
               fps_limit: 120,
               particles: {
                 number: {
-                  value: 200,
+                  value: 300,
                   density: {
-                    enable: true
+                    enable: false
                   }
                 },
                 line_linked: {
