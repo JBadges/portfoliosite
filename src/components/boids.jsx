@@ -3,8 +3,6 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import "./projects.css";
 import YouTube from "react-youtube";
 
-import Particles from "react-particles-js";
-
 export default () => {
   const opts = {
     playerVars: {

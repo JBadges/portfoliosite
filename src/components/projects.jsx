@@ -11,10 +11,9 @@ class Projects extends React.Component {
     return (
       <React.Fragment>
         <Navigation />
-
-        <div className="scroll-container">
+        <div id="sc" className="scroll-container">
           <Particles
-            canvasClassName="test"
+            canvasClassName="projectparticle"
             params={{
               fps_limit: 120,
               particles: {

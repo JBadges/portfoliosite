@@ -7,21 +7,19 @@ class Navigation extends Component {
   constructor() {
     super();
     if (window.innerWidth < 768) {
-      this.state = { fixpos: "top", greybg: "greybg" };
+      this.state = { greybg: "greybg" };
     } else {
-      this.state = { fixpos: "bottom", greybg: "" };
+      this.state = { greybg: "" };
     }
   }
 
   handleResize = () => {
     if (window.innerWidth < 768) {
       this.setState({
-        fixpos: "top",
         greybg: "greybg"
       });
     } else {
       this.setState({
-        fixpos: "bottom",
         greybg: ""
       });
     }
@@ -37,12 +35,7 @@ class Navigation extends Component {
 
   render() {
     return (
-      <Navbar
-        scrolling="true"
-        light="true"
-        expand="md"
-        fixed={this.state.fixpos}
-      >
+      <Navbar scrolling="true" light="true" expand="md" fixed="top">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" fill="true">
